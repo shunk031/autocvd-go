@@ -1,5 +1,8 @@
 # autocvd-go
 
+[![CI](https://github.com/shunk031/autocvd-go/actions/workflows/ci.yaml/badge.svg)](https://github.com/shunk031/autocvd-go/actions/workflows/ci.yaml)
+[![Release](https://github.com/shunk031/autocvd-go/actions/workflows/release.yaml/badge.svg)](https://github.com/shunk031/autocvd-go/actions/workflows/release.yaml)
+
 A golang cli tool for setting `CUDA_VISIBLE_DEVICES` based on GPU utilization.
 This project is heavily inspired by the python version of [`jonasricker/autocvd`](https://github.com/jonasricker/autocvd).
 
