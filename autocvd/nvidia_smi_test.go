@@ -114,5 +114,9 @@ func TestHelperProcess(t *testing.T) {
 		fmt.Fprint(os.Stdout, "48684")
 	case "TestGetFreeGpuMemory_used":
 		fmt.Fprint(os.Stdout, "6416")
+	case "TestGetFreeGpus_free":
+		fmt.Fprint(os.Stdout, "")
+	case "TestGetFreeGpus_used":
+		fmt.Fprint(os.Stdout, "3845974")
 	}
 }
