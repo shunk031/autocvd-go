@@ -19,7 +19,7 @@ autocvd-go uses `nvidia-smi` to query GPU utilization. Make sure that it is inst
 Download the binary from [GitHub Releases](https://github.com/shunk031/autocvd-go/releases/latest) and drop it in your $PATH.
 
 ```shell
-wget https://github.com/shunk031/autocvd-go/releases/latest/download/auto-cvd_linux_x86_64.tar.gz \
+wget https://github.com/shunk031/autocvd-go/releases/latest/download/autocvd_linux_x86_64.tar.gz \
     && tar -xvzf autocvd_linux_x86_64.tar.gz autocvd \
     && rm autocvd_linux_x86_64.tar.gz
 
