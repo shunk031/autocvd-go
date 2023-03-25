@@ -10,6 +10,10 @@ The aim of this tool, as well as [`jonasricker/autocvd`](https://github.com/jona
 
 > On a system with multiple NVIDIA GPUs, autocvd eliminates the need for manually specifying the CUDA_VISIBLE_DEVICES environment variable. This comes in especially handy on systems with multiple users, like a shared GPU server. It is dependency-free and requires no code changes.
 
+## Requirements
+
+autocvd-go uses `nvidia-smi` to query GPU utilization. Make sure that it is installed and callable.
+
 ## Installation
 
 Download the binary from [GitHub Releases](https://github.com/shunk031/autocvd-go/releases/latest) and drop it in your $PATH.
